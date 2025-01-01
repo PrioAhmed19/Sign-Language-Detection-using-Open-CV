@@ -55,7 +55,7 @@ for j in range(classes):
 
     counter = 0 
 
-#looping till take 100 pics as declared
+    #looping till take 100 pics as declared
     while counter < data_collected_for_each_class:
     #capturing single frame
         ret,frame = cap.read()
