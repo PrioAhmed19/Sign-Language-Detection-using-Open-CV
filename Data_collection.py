@@ -2,7 +2,7 @@ import os
 import cv2
 
 #give the folder location where the dataset will be stored
-DATA_DIR = 'F:/Project/New folder/Sign Language Detection Using Machine Learning/Dataset'
+DATA_DIR = 'F:/Project/New folder/Sign Language Detection Using Machine Learning'
 
 #if the location is not created , create one
 if not os.path.exists(DATA_DIR):
@@ -42,9 +42,9 @@ for j in range(classes):
         start_point = (150,100)
         end_point = (450,400)
         color = (0,255,0)
-        thickness = 3
+        thickness = 2
         cv2.rectangle(frame,start_point,end_point,color,thickness)
-        cv2.putText(frame,f'Press V to take a snap for class{j} ',(100,50),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),3,cv2.LINE_AA)
+        cv2.putText(frame,f'Press V to take a snap for class{j} ',(100,50),cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2,cv2.LINE_AA)
     
     #display current frame
         cv2.imshow('frame',frame)
@@ -78,6 +78,7 @@ for j in range(classes):
 #closing program
 cap.release()
 cv2.destroyAllWindows()
+
 
 
 
