@@ -82,9 +82,6 @@ python Classifier.py
 
 Contributions are welcome! If you have suggestions for improvements, new features, or bug fixes, please feel free to fork the repository, create a new branch, and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-[License information will be added here. This project is intended to be open-source, and a suitable license will be chosen.]
 
 ## Contact
 
