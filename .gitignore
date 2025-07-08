@@ -1,0 +1,83 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data
+*.csv
+*.json
+*.pkl
+*.npy
+
+# Models
+*.h5
+*.keras
+*.pth
+
+# Logs
+*.log
+
+# Environment
+venv/
+.env
+
+
+
+# Microcontroller Project Files
+*.hex
+*.cof
+*.lst
+*.map
+*.obj
+*.pdsprj
+*.bak
+*.tmp
+
+# Simulation Files
+*.log
+*.dat
+
+# IDE specific files (example for MPLAB, Keil, etc.)
+*.mcp
+*.mcw
+*.opt
+*.uvopt
+*.uvproj
+*.dep
+*.o
+*.d
+
+# General
+.DS_Store
+Thumbs.db
+
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# OpenCV
+*.mp4
+*.avi
+
+# Dataset
+Dataset/
+
+# Models
+*.pkl
+*.h5
+*.keras
+
+# Environment
+venv/
+.env
+
+
